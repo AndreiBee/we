@@ -1,0 +1,13 @@
+################ Czech language ##################
+[cz]
+languageName = "Cz"
+languageCode = "cz-cz"
+contentDir = "content/czech"
+weight = 1
+
+################ English language ##################
+[en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 2

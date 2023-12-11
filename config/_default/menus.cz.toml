@@ -1,0 +1,23 @@
+############# Czech navigation ##############
+
+# main menu
+[[main]]
+name = "Domu"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Kontaktujte nás"
+url = "contact/"
+weight = 2
+
+# footer menu
+[[footer]]
+name = "Domu"
+url = "/"
+weight = 1
+
+[[footer]]
+name = "Kontaktujte nás"
+url = "contact/"
+weight = 2
