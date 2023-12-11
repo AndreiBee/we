@@ -3,6 +3,13 @@ title: "Kontaktujte nás"
 meta_title: ""
 description: "this is meta description"
 draft: false
+name_header: "Celé Jméno"
+name_placeholder: "Jan Novák"
+email_header: "Email"
+email_placeholder: "jan.novak@seznam.cz"
+description_header: "Popis problému"
+description_placeholder: "Sem napište svou zprávu..."
+submit_btn_text: "Odeslat"
 ---
 
 ##### 🤔 Pokud máte otázky, nápady nebo potřebujete další informace, neváhejte nás kontaktovat.

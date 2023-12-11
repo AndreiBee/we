@@ -54,5 +54,5 @@ features:
     button:
       enable: true
       label: "Kontaktujte nás"
-      link: "cz/contact/"
+      link: "contact/"
 ---

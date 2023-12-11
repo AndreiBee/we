@@ -15,38 +15,43 @@
           <form action="{{ site.Params.contact_form_action }}" method="POST">
             <div class="mb-6">
               <label for="name" class="form-label">
-                Celé Jméno <span class="text-red-500">*</span>
+                {{ .Params.name_header | markdownify }}
+                <span class="text-red-500">*</span>
               </label>
               <input
                 id="name"
                 name="name"
                 class="form-input"
-                placeholder="Jan Novák"
+                placeholder="{{ .Params.name_placeholder | markdownify }}"
                 type="text" />
             </div>
             <div class="mb-6">
               <label for="email" class="form-label">
-                Email <span class="text-red-500">*</span>
+                {{ .Params.email_header | markdownify }}
+                <span class="text-red-500">*</span>
               </label>
               <input
                 id="email"
                 name="email"
                 class="form-input"
-                placeholder="jan.novak@seznam.cz"
+                placeholder="{{ .Params.email_placeholder | markdownify }}"
                 type="email" />
             </div>
             <div class="mb-6">
               <label for="message" class="form-label">
-                Popis problému <span class="text-red-500">*</span>
+                {{ .Params.description_header | markdownify }}
+                <span class="text-red-500">*</span>
               </label>
               <textarea
                 id="message"
                 name="message"
                 class="form-input"
-                placeholder="Sem napište svou zprávu..."
+                placeholder="{{ .Params.description_placeholder | markdownify }}"
                 rows="8"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Odeslat</button>
+            <button type="submit" class="btn btn-primary">
+                {{ .Params.submit_btn_text | markdownify }}
+            </button>
           </form>
         </div>
       </div>

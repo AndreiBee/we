@@ -10,52 +10,97 @@
           </div>
         </div>
       </div>
-      <br>
+      <br><br>
+
       <div class="container-card">
-        <div class="card">
-          <div class="card-image">
-            <img src="https://images.unsplash.com/photo-1604135307399-86c6ce0aba8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80">
+        <a href="https://agnes-hugo-sample-site.netlify.app/">
+          <div class="card">
+            <div class="card-image">
+              {{ partial "image" (dict "Src" "/images/samples/agnes.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Breakfast/Eggs</p>  */}}
+              <h2 class="card-title">Agnes</h2>
+              <p class="card-body">
+                {{ .Params.web_1_description | markdownify }}
+              </p>
+            </div>
+            {{/*  <div class="card-price">$56</div>  */}}
           </div>
-          <div class="card-text">
-            {{/*  <p class="card-meal-type">Breakfast/Eggs</p>  */}}
-            <h2 class="card-title">Délicieux Bénédicte</h2>
-            <p class="card-body">Eggs Benedict with hollandaise sauce, crispy bacon and an assortment of garden herbs.</p>
+        </a>
+        <a href="https://zjedi.github.io/hugo-scroll/">
+          <div class="card">
+            <div class="card-image">
+                {{ partial "image" (dict "Src" "/images/samples/gastronomique.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Lunch/Meat</p>  */}}
+              <h2 class="card-title">Gastronomique</h2>
+              <p class="card-body">
+                {{ .Params.web_2_description | markdownify }}
+              </p>
+            </div>
+            {{/*  <div class="card-price">$39</div>  */}}
           </div>
-          {{/*  <div class="card-price">$56</div>  */}}
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="https://images.unsplash.com/photo-1551782450-17144efb9c50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1769&q=80">
+        </a>
+        <a href="https://hugo-fresh.vercel.app/">
+          <div class="card">
+            <div class="card-image">
+              {{ partial "image" (dict "Src" "/images/samples/fresh.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Soups/Meat</p>  */}}
+              <h2 class="card-title">Fresh</h2>
+              <p class="card-body">
+                {{ .Params.web_3_description | markdownify }}
+              </p>
+            </div>
+            {{/*  <div class="card-price">$69</div>  */}}
           </div>
-          <div class="card-text">
-            {{/*  <p class="card-meal-type">Lunch/Meat</p>  */}}
-            <h2 class="card-title">Du bœuf Burger</h2>
-            <p class="card-body">A beef burger with wholewheat patty, juicy lettuce and a side of gluten free fries</p>
+        </a>
+        <a href="https://tailbliss.netlify.app/">
+          <div class="card">
+            <div class="card-image">
+              {{ partial "image" (dict "Src" "/images/samples/tailbliss.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Appetizers/Meat</p>  */}}
+              <h2 class="card-title">TailBliss</h2>
+              <p class="card-body">
+                {{ .Params.web_4_description | markdownify }}
+              </p>
+            </div>
+            {{/*  <div class="card-price">$104</div>  */}}
           </div>
-          {{/*  <div class="card-price">$39</div>  */}}
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="https://images.unsplash.com/photo-1635146037526-a75e6905ad78?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80">
+        </a>
+        <a href="https://willfaught.com/paige/">
+          <div class="card">
+            <div class="card-image">
+              {{ partial "image" (dict "Src" "/images/samples/paige.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Appetizers/Meat</p>  */}}
+              <h2 class="card-title">Paige</h2>
+              <p class="card-body">
+                {{ .Params.web_5_description | markdownify }}
+              </p>
+            </div>
           </div>
-          <div class="card-text">
-            {{/*  <p class="card-meal-type">Soups/Meat</p>  */}}
-            <h2 class="card-title">Soupe à l’oignon</h2>
-            <p class="card-body">The traditional French soup made with onions and beef with a dollop of garlic and saffaron mayonise.</p>
+        </a>
+        <a href="https://roxo-hugo.staticmania.com/">
+          <div class="card">
+            <div class="card-image">
+              {{ partial "image" (dict "Src" "/images/samples/roxo.png") }}
+            </div>
+            <div class="card-text">
+              {{/*  <p class="card-meal-type">Appetizers/Meat</p>  */}}
+              <h2 class="card-title">Roxo</h2>
+              <p class="card-body">
+                {{ .Params.web_6_description | markdownify }}
+              </p>
+            </div>
           </div>
-          {{/*  <div class="card-price">$69</div>  */}}
-        </div>
-        <div class="card">
-          <div class="card-image">
-            <img src="https://www.expatica.com/app/uploads/sites/5/2020/03/Coq-au-vin.jpg">
-          </div>
-          <div class="card-text">
-            {{/*  <p class="card-meal-type">Appetizers/Meat</p>  */}}
-            <h2 class="card-title">Coq au Vin</h2>
-            <p class="card-body">Chickens doused in wine, mushrooms, pork, onions and garlic.</p>
-          </div>
-          {{/*  <div class="card-price">$104</div>  */}}
-        </div>
+        </a>
       </div>
     </div>
   </section>

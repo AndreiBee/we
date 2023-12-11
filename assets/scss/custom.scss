@@ -4,12 +4,12 @@
 *{
   margin:0;
   padding:0;
-  box-sizing:border-box;
+  // box-sizing:border-box;
 //   font-family:'Playfair Display', serif;
 }
 
 .container-card {
-  width:100vw;
+  // width:100vw;
   display:flex;
   justify-content:space-around;
   flex-wrap:wrap;
@@ -20,7 +20,7 @@
   display:flex;
   flex-direction:column;
 //   width:400px;
-//   margin-bottom:60px;
+  margin-bottom:80px;
 }
 
 .card>div {
@@ -29,7 +29,7 @@
 
 .card-image {
   width:400px;
-  height:250px;
+  // height:250px;
 }
 
 .card-image>img {
@@ -42,7 +42,7 @@
 .card-text {
   margin:-30px auto;
   margin-bottom:-50px;
-  height:300px;
+  height:auto;
   width:300px;
   background-color:#1D1C20;
   color:#fff;
