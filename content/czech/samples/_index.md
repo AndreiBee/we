@@ -3,6 +3,7 @@ title: "Samply"
 meta_title: ""
 description: "Příklady webových aplikaci"
 draft: false
+banner: "/images/banner-samples.png"
 web_1_description: "Elegantní design a struktura této sablony mohou být atraktivní pro designová studia nebo kreativní agentury."
 web_2_description: "Elegantní design a použití vizuálních prvků může být atraktivní pro weby restaurací nebo kaváren s nadčasovým vzhledem."
 web_3_description: "Čistý design této sablony může být vhodný pro weby v automobilovém průmyslu, zejména pro showroomy automobilů nebo autoservisy s důrazem na kvalitu."

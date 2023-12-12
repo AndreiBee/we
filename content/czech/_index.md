@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "WebExpress"
-  content: "Naším cílem je nejen vytvořit esteticky přitažlivé webové stránky,<br>ale také poskytnout efektivní nástroj pro dosažení Vašich obchodních cílů."
+  content: "<b>Naším cílem je nejen vytvořit esteticky přitažlivé webové stránky,<br>ale také poskytnout efektivní nástroj pro dosažení Vašich obchodních cílů.</b>"
   image: "/images/banner.png"
   button:
     enable: false

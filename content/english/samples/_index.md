@@ -3,6 +3,7 @@ title: "Samples"
 meta_title: ""
 description: "Web page samples"
 draft: false
+banner: "/images/banner-samples.png"
 web_1_description: "The elegant design and structure of this template can be appealing to design studios or creative agencies."
 web_2_description: "The elegant design and use of visual elements can be appealing for restaurant or café websites with a timeless look."
 web_3_description: "The clean design of this template can be suitable for websites in the automotive industry, especially for car showrooms or auto services with an emphasis on quality."

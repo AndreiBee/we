@@ -3,6 +3,7 @@ title: "Kontaktujte nás"
 meta_title: ""
 description: "Kontaktujte nás stránka"
 draft: false
+banner: "/images/banner-contact.png"
 name_header: "Celé Jméno"
 name_placeholder: "Jan Novák"
 email_header: "Email"

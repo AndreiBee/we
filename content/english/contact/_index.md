@@ -3,6 +3,7 @@ title: "Contact us"
 meta_title: ""
 description: "Contact us page"
 draft: false
+banner: "/images/banner-contact.png"
 name_header: "Your Name"
 name_placeholder: "John Doe"
 email_header: "Email"
