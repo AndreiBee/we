@@ -36,6 +36,8 @@ submit_btn_text: "Odeslat"
 | Středa  | 9:00 - 17:00 |
 | Čtvrtek | 9:00 - 17:00 |
 | Pátek   | 9:00 - 17:00 |
+| Sobota  |   Zavřeno    |
+| Neděle  |   Zavřeno    |
 
 {{< /accordion >}}
 

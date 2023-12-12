@@ -36,6 +36,8 @@ submit_btn_text: "Submit"
 | Wednesday | 9:00 - 17:00 |
 | Thursday  | 9:00 - 17:00 |
 | Friday    | 9:00 - 17:00 |
+| Saturday  |    Closed    |
+| Sunday    |    Closed    |
 
 {{< /accordion >}}
 
