@@ -7,9 +7,14 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Samples"
+url = "samples/"
+weight = 2
+
+[[main]]
 name = "Contact us"
 url = "contact/"
-weight = 2
+weight = 3
 
 # footer menu
 [[footer]]
@@ -18,11 +23,11 @@ url = "/"
 weight = 1
 
 [[footer]]
-name = "Contact us"
-url = "contact/"
+name = "Samples"
+url = "samples/"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
+name = "Contact us"
+url = "contact/"
 weight = 3

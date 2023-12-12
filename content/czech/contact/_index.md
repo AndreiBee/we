@@ -1,7 +1,7 @@
 ---
 title: "Kontaktujte nás"
 meta_title: ""
-description: "this is meta description"
+description: "Kontaktujte nás stránka"
 draft: false
 name_header: "Celé Jméno"
 name_placeholder: "Jan Novák"
