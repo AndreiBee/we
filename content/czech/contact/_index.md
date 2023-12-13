@@ -13,41 +13,36 @@ description_placeholder: "Sem napište svou zprávu..."
 submit_btn_text: "Odeslat"
 ---
 
-##### 🤔 Pokud máte otázky, nápady nebo potřebujete další informace, neváhejte nás kontaktovat.
+##### Pokud máte otázky, nápady nebo potřebujete další informace, neváhejte nás kontaktovat.
 
-##### 👥 Jsme tu pro Vás a rádi Vám odpovíme.
-
-##### 📣 Vaše zpětná vazba je pro nás důležitá.
+##### Jsme tu pro Vás a rádi Vám odpovíme.
 
 <hr>
 
-#### Kontaktní údaje:
-
-##### [📧](mailto:webexpress@seznam.cz) E-mail: [webexpress@seznam.cz](mailto:webexpress@seznam.cz)
-
-##### [📞](tel:+420773972894) Telefon: [+420 773 972 894](tel:+420773972894)
-
-<hr>
-{{< accordion "Otevírací doba" >}}
-
-| Den     |     Čas      |
-| ------- | :----------: |
-| Pondělí | 9:00 - 17:00 |
-| Úterý   | 9:00 - 17:00 |
-| Středa  | 9:00 - 17:00 |
-| Čtvrtek | 9:00 - 17:00 |
-| Pátek   | 9:00 - 17:00 |
-| Sobota  |   Zavřeno    |
-| Neděle  |   Zavřeno    |
-
-{{< /accordion >}}
-
-<hr>
-
-#### 📍 Adresa:
-
-##### [WebExpress, Bechyňská 638, Praha, 199 00](https://maps.app.goo.gl/ChHMhcUCNgJXrexb7)
+<div class="contact-info">
+    <div class="phone">
+        <div class="label"><h1>📞<h1></div>
+        <div class="text-content">
+            <h4><a href="tel:+420773972894">+420 773 972 894</a></h4>
+            <p>Po-Ne: 8:00 - 18:00</p>
+        </div>
+    </div>
+    <div class="address">
+        <div class="label"><h1>📍<h1></div>
+        <div class="text-content">
+            <h4>Umístění</h4>
+            <p><a href="https://maps.app.goo.gl/ChHMhcUCNgJXrexb7">Bechyňska 638, Praha, 199 00</a></p>
+        </div>
+    </div>
+    <div class="mail">
+        <div class="label"><h1>📧<h1></div>
+        <div class="text-content">
+            <h5><a href="mailto:webexpress@seznam.cz">webexpress@seznam.cz</a></h5>
+            <p>Služby zákazníkům</p>
+        </div>
+    </div>
+</div>
 
 <hr>
 
-#### 🤷‍♂️ Nemůžete se rozhodnout? Zanechte nám zprávu a ozveme se Vám co nejdříve 👍<br><br>
+#### Zanechte nám zprávu a ozveme se Vám co nejdříve.<br><br>

@@ -1,4 +1,117 @@
 // Add your own custom styles here
+.section-questions {
+  margin-top: -50px;
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // vertical-align: middle;
+}
+
+.left-questions {
+  max-width: 50%;
+  margin: 20px; 
+}
+
+.right-questions {
+  max-width: 50%;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.contact-info .phone {
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+  // justify-content: center;
+  // align-items: center;
+  vertical-align: middle;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .phone .label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-info .address {
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+  // justify-content: center;
+  // align-items: center;
+  // vertical-align: middle;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .address .label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contact-info .mail {
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 10px;
+  text-align: center;
+  // justify-content: center;
+  // align-items: center;
+  // vertical-align: middle;
+  width: 34%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info .mail .label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Media query for smaller devices (e.g., screens up to 600px wide) */
+@media screen and (max-width: 600px) {
+  .questions {
+    flex-direction: column; /* Stack flex items vertically */
+  }
+
+  .left-questions {
+    width: 100%;
+    margin-bottom: -3px;
+  }
+
+  .right-questions {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .contact-info .phone {
+    width: 100%;
+  }
+
+  .contact-info .address {
+    width: 100%;
+  }
+  
+  .contact-info .mail {
+    width: 100%;
+  }
+}
+
 
 .centered-image {
     // text-align: center; /* Center the content horizontally */
@@ -62,10 +175,6 @@
   background-color:#1D1C20;
   color:#fff;
   padding:20px;
-}
-
-.card-meal-type {
-//   font-style:italic;
 }
 
 .card-title {
