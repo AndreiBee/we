@@ -31,3 +31,8 @@ weight = 2
 name = "Kontaktujte nás"
 url = "contact/"
 weight = 3
+
+[[footer]]
+name = "Ochrana osobních údajů"
+url = "privacy-policy/"
+weight = 4

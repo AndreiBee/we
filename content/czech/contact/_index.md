@@ -20,21 +20,21 @@ submit_btn_text: "Odeslat"
 <hr>
 
 <div class="contact-info">
-    <div class="phone">
+    <div class="contact-form">
         <div class="label"><h1>📞<h1></div>
         <div class="text-content">
             <h5><a href="tel:+420773972894">+420 773 972 894</a></h5>
             <p>Po-Ne: 8:00 - 18:00</p>
         </div>
     </div>
-    <div class="address">
+    <div class="contact-form">
         <div class="label"><h1>📍<h1></div>
         <div class="text-content">
-            <h5><a href="https://maps.app.goo.gl/ChHMhcUCNgJXrexb7">Bechyňska 638, Praha, 199 00</a></h5>
+            <h5><a href="https://maps.app.goo.gl/HQSjLefhoGAV57YVA">Hlučkova 869, Praha 18, 199 00</a></h5>
             <p>Umístění</p>
         </div>
     </div>
-    <div class="mail">
+    <div class="contact-form">
         <div class="label"><h1>📧<h1></div>
         <div class="text-content">
             <h5><a href="mailto:webexpress@seznam.cz">webexpress@seznam.cz</a></h5>
@@ -42,7 +42,15 @@ submit_btn_text: "Odeslat"
         </div>
     </div>
 </div>
-
+<div class="contact-info">
+    <div class="contact-form">
+        <div class="label"><h1>👨‍💼<h1></div>
+        <div class="text-content">
+            <h5>19641648</h5>
+            <p>Identifikační číslo osoby (IČO)</p>
+        </div>
+    </div>
+</div>
 <hr>
 
 #### Zanechte nám zprávu a ozveme se Vám co nejdříve.<br><br>
