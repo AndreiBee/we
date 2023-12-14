@@ -31,3 +31,8 @@ weight = 2
 name = "Contact us"
 url = "contact/"
 weight = 3
+
+[[footer]]
+name = "Privacy policy"
+url = "privacy-policy/"
+weight = 4
