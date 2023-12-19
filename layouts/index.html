@@ -153,4 +153,43 @@
     </div>
   </section>
 
+  {{/*  JS  */}}
+  <script>
+    // Remove the transition class
+    const left_questions = document.querySelector('.left-questions');
+    left_questions.classList.remove('slide-from-left-to-right');
+
+    // Create the observer, same as before:
+    const left_observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          left_questions.classList.add('slide-from-left-to-right');
+          return;
+        }
+
+        left_questions.classList.remove('slide-from-left-to-right');
+      });
+    });
+
+    left_observer.observe(document.querySelector('.questions'));
+
+    // Remove the transition class
+    const right_questions = document.querySelector('.right-questions');
+    right_questions.classList.remove('slide-from-right-to-left');
+
+    // Create the observer, same as before:
+    const right_observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          right_questions.classList.add('slide-from-right-to-left');
+          return;
+        }
+
+        right_questions.classList.remove('slide-from-right-to-left');
+      });
+    });
+
+    right_observer.observe(document.querySelector('.questions'));
+  </script>
+
 {{ end }}

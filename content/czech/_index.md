@@ -1,4 +1,6 @@
 ---
+js: "mainPage" 
+
 # Banner
 banner:
   title: "WebExpress"
@@ -62,72 +64,77 @@ features:
 
 questions:
   title: "Často kladené dotazy"
-
 ---
 
-<div class="left-questions">
+<div class="left-questions slide-from-left-to-right">
 
 {{< accordion "Kolik to stojí?" >}}
 
-Ceny jsou samozřejmě individuální podle velikosti projektu. Rozděluji práci na 3 typy webů. Jednoduchý, Pokročilejší a Rozsáhlé weby/e-shopy. Podle požadavků nacením nabídku podle hodin práce. Pokud máte zájem i o mé další služby jako jsou úpravy webu, SEO, PPC apod., moje hodinová sazba je 1000 Kč.
+Ceny se samozřejmě liší v závislosti na rozsahu projektu. Strukturuji svou práci do tří kategorií webů:
+
+- **Jednoduchý**
+- **Pokročilejší**
+- **Rozsáhlé weby/e-shopy**
+
+Podle specifikací projektu vytvořím cenovou nabídku na základě odhadu pracovních hodin. Pokud máte zájem o další služby, jako jsou úpravy webu, SEO, PPC atd., moje hodinová sazba je 1000 Kč.
 
 {{< /accordion >}}
 
 {{< accordion "Co všechno je v ceně nabídky?" >}}
 
-Opět záleží na typu projektu a jeho velikosti, všechen obsah služeb a práce připravuju po společné konzultaci, ale minimálně webová tvorba zahrnuje:
+Závisí to opět na charakteru projektu a jeho rozsahu. Všechny detaily ohledně poskytovaných služeb a pracovního postupu připravuji během společné konzultace. Nicméně, základní webová tvorba obvykle zahrnuje následující:
 
-- Strukturovaná úvodní stránka pro představení (dle předlohy)
-- Tvorba podstránek a jejich design
-- Nastavení WordPress s nástavbou Elementar Pro – pro jednoduchou
-  administraci
+- Vytvoření strukturované úvodní stránky pro představení (podle předlohy)
+- Design a realizaci podstránek
 - Vložení obsahu a fotografií
-- Kontaktní formulář
-- Nastavení SEO – Analýza robots.txt, sitemap.xml, duplicity, nadpisy,
-  popisky
-- Responzivní vůči zařízením – PC, tablet, mobil a další
+- Implementaci kontaktního formuláře
+- Nastavení SEO, včetně analýzy robots.txt, sitemap.xml, odstranění duplicity, optimalizace nadpisů a popisků
+- Zajištění responzivnosti na různých zařízeních – počítač, tablet, mobil a další.
 
 {{< /accordion >}}
 
 {{< accordion "Je možnost zálohové faktury?" >}}
 
-Ano, po schválení cenové nabídky 1/2 zálohy dopředu a až bude web plně podle vašich představ doplatí se zbytek.
+Ano, po schválení cenové nabídky je potřeba uhradit polovinu zálohy předem. Zbývající částka se vyrovná až poté, co bude webová stránka kompletně vytvořena podle vašich požadavků.
 
 {{< /accordion >}}
 
 {{< accordion "Potřebuji webhosting a doménu?" >}}
 
-Doporučuji zakoupit webhosting i doménu na českém Wedosu, je totiž jednoduchý na administraci a také levný.
-
-Moje 50% sleva s kódem – WN232MQFTN
+Ne, všechno zařídím já.
 
 {{< /accordion >}}
 
 </div>
 
-<div class="right-questions">
+<div class="right-questions slide-from-right-to-left">
 
 {{< accordion "Co budu potřebovat před zahájením?" >}}
 
-Můžeme si zavolat a vše projít a nebo pokud chcete proces urychlit, přiložte – Logo (barvy pro vaše stránky) – Obsah (nebo nechám jen ukázkový text, který můžete později upravit) – Požadavky na přizpůsobení / odkazy na jiné stránky – Jakékoli obrázky / videa, pokud je máte.
+Můžeme spolu promluvit telefonicky a projít vše, nebo pokud upřednostňujete rychlejší proces, prosím přiložte:
+
+- Obsah (nebo mohu vytvořit ukázkový text, který si později můžeme upravit)
+- Specifické požadavky na přizpůsobení nebo odkazy na jiné stránky
+- Jakékoli obrázky nebo videa, které máte k dispozici
+- Logo (spolu s barvami pro vaše stránky)
 
 {{< /accordion >}}
 
 {{< accordion "Zatím nemám žádný obsah. Co mám dělat?" >}}
 
-Navrhnu vaše webové stránky s ukázkovým obrázkem ve vysokém rozlišení a s ukázkovým textem. Poté, co budou webové stránky vytvořeny, můžeme obsah změnit, až budou hotové.
+Navrhuji vaše webové stránky s náhledem ve vysokém rozlišení a ukázkovým textem. Po vytvoření webových stránek můžeme obsah snadno upravit až poté, co budou kompletně dokončeny.
 
 {{< /accordion >}}
 
 {{< accordion "Můžete navrhnout logo mého webu?" >}}
 
-Ano, s grafikou to také umím skvěle, vytvořím Vám atraktivní logo firmy podle Vašich služeb. Pro použití online i na tisk.
+Ano, vytvořím Vám atraktivní logo firmy podle Vašich služeb.
 
 {{< /accordion >}}
 
 {{< accordion "Budu moci své webové stránky snadno upravovat? Nejsem programátor...." >}}
 
-Webové stránky budou plně přizpůsobitelné v jednoduché administraci a pokud budete potřebovat, mohu různé úpravy udělat za Vás.
+Ano, ale nedoporučoval bych to provádět bez odborné pomoci.
 
 {{< /accordion >}}
 
