@@ -1,7 +1,7 @@
 .btn.btn-primary:hover{
   background-color: rgb(0, 0, 0);
   color: #fff;
-  transform: translateY(-3px);
+  transform: scale(110%);
 }
 
 
@@ -60,6 +60,63 @@
   animation-delay: 0.2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+
+.scale-item {
+  animation-name: scale-item;
+  animation-duration: 2s;
+  animation-delay: 0.2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale-item {
+  0%, 100% {
+    transform: scale(100%);
+  }
+
+  50% {
+    transform: scale(110%);
+  }
+}
+
+.img:hover, .card:hover, .contact-form:hover, .swiper-slide:hover {
+  animation-name: scale-item;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.bg-gradient.row.items-center.justify-between {
+  transform: translateX(50%);
+}
+
+.nav-item:hover, .m-3:hover, .accordion:hover { 
+  animation-name: scale-item;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes unroll-accordion {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 100vh;
+  }
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s linear;
+}
+
+.accordion-content:active {
+  max-height: 100vh;
 }
 
 .contact-info {

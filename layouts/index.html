@@ -190,6 +190,23 @@
     });
 
     right_observer.observe(document.querySelector('.questions'));
+
+    // Remove the transition class
+    const row_section = document.querySelector('.img');
+    row_section.classList.remove('scale-item');
+
+    // Create the observer, same as before:
+    const row_observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          row_section.classList.add('scale-item');
+          return;
+        }
+        row_section.classList.remove('scale-item');
+      });
+    });
+
+    row_observer.observe(document.querySelector('.section-sm.bg-gradient'));
   </script>
 
 {{ end }}
